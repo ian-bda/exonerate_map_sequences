@@ -29,7 +29,7 @@ def download_genome(species, genome_dir):
         print(f"Genome exists for {species}, skipping download")
         return genome_file
     
-    Entrez.email = "ibirchl@ncsu.edu"
+    Entrez.email = "..." #your email here
     print(f"Searching for {species} reference genome...")
     
     try:
