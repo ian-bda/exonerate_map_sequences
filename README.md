@@ -1,6 +1,6 @@
 # exonerate_map_sequences
 
-A workflow for mapping and analyzing FASTA sequences against reference genomes using `exonerate`, filtering results, and performing phylogenetic analysis.
+A workflow for mapping and analyzing FASTA sequences against reference genomes using `exonerate' and filtering the results to remove overlapping and duplicated sequences 
 
 ---
 
