@@ -46,17 +46,17 @@ Use `exonerate.py` to align your de-duplicated FASTA sequences to the reference 
 
 #### Input Requirements
 
-1. **Protein Sequences**: 
+ **Protein Sequences**: 
    - Must be in FASTA format
    - Headers should follow the format: `Genus_species_identifier`
    - Example: `>Phocoena_sinus_ENSPSNT00000033221.1`
 
-2. **Genome Files**:
+ **Genome Files**:
    - Must be named as `Genus_species_genome.fna`
    - Should be placed in the genomes directory
    - Example: `Phocoena_sinus_genome.fna`
 
-### Command-line Arguments
+#### Command-line Arguments
 
 - `--proteins`: (Required) Path to the input multi-FASTA file containing protein sequences
 - `--genomes_dir`: (Optional) Directory containing reference genomes (default: 'genomes')
@@ -64,7 +64,7 @@ Use `exonerate.py` to align your de-duplicated FASTA sequences to the reference 
 - `--exonerate_path`: (Optional) Path to the Exonerate executable (default: 'exonerate')
 - `--max_workers`: (Optional) Maximum number of parallel Exonerate jobs (default: 4)
 
-### Example
+#### Example
 
 ```bash
 python exonerate_parallel.py \
