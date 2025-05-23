@@ -44,7 +44,7 @@ Use `exonerate.py` to align your de-duplicated FASTA sequences to the reference 
 - Progress is reported to standard output
 - Failed jobs are reported with error messages
 
-## Input Requirements
+#### Input Requirements
 
 1. **Protein Sequences**: 
    - Must be in FASTA format
