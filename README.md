@@ -20,11 +20,13 @@ This project automates the process of:
 Download all necessary reference genome files and organize them in a directory.
 
 ```
-python download_genomes.py your_file.fasta
+python download_genomes.py <input.fasta> <output_dir>
 ```
 
 ### 2. Convert Excel Sheets to FASTA
 Use a script to convert your Excel-based sequence data into FASTA format.
+
+
 
 ### 3. Deduplicate FASTA
 Remove duplicate sequences from the FASTA file to ensure only unique entries are used in downstream analysis.
