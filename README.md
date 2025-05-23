@@ -7,7 +7,7 @@ A workflow for mapping and analyzing FASTA sequences against reference genomes u
 ## Overview
 
 This project automates the process of:
-- Mapping sequences from FASTA files to reference genomes
+- Mapping sequences from FASTA files to species specific reference genomes
 - Analyzing overlapping exonerate results
 - Filtering to select representative sequences per cluster per species
 - Performing multiple sequence alignment and phylogenetic analysis
@@ -18,6 +18,10 @@ This project automates the process of:
 
 ### 1. Prepare Reference Genomes
 Download all necessary reference genome files and organize them in a directory.
+
+```
+python download_genomes.py your_file.fasta
+```
 
 ### 2. Convert Excel Sheets to FASTA
 Use a script to convert your Excel-based sequence data into FASTA format.
