@@ -89,3 +89,6 @@ python overlap_exonerate_analysis.py <directory_of_out_files> <cluster.txt>
 python filter_fasta.py <cluster.txt> <input_fasta> <output_fasta>
 ```
 
+---
+
+Now that you have generated your file without duplicates and overlapping sequences, you can align them using famsa and run IQtree using 1000 bootstrap replicates!
