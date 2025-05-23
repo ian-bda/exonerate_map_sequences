@@ -44,14 +44,14 @@ Use `exonerate.py` to align your de-duplicated FASTA sequences to the reference 
 - Progress is reported to standard output
 - Failed jobs are reported with error messages
 
-#### Input Requirements
+#### Input Requirements:
 
- **Protein Sequences**: 
+ 1. **Protein Sequences**: 
    - Must be in FASTA format
    - Headers should follow the format: `Genus_species_identifier`
    - Example: `>Phocoena_sinus_ENSPSNT00000033221.1`
 
- **Genome Files**:
+ 2. **Genome Files**:
    - Must be named as `Genus_species_genome.fna`
    - Should be placed in the genomes directory
    - Example: `Phocoena_sinus_genome.fna`
