@@ -75,13 +75,13 @@ python exonerate_parallel.py \
 ```
 
 ### 5. Run Exonerate overlap analysis
-tells you which sequences are overlapping
+tells you which sequences are overlapping and generates cluster summary file
 ```
 python overlap_exonerate_analysis.py <directory_of_out_files> <cluster.txt>
 ```
 
 ### 6. Filter out overlappign sequences
-- Takes one cluster summary file (as you provided)
+- Takes one cluster summary file (as you provided from step 5)
 - Takes one FASTA file (containing all sequences from all species)
 - Outputs one filtered FASTA file with one representative per cluster per species (the longest sequence)
 
