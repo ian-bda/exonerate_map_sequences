@@ -15,19 +15,18 @@ This project automates the process of:
 ---
 
 ## Workflow Steps
+### 1. Convert Excel Sheets to FASTA
+After collecting your data into an excel sheet, use this script to convert your Excel-based sequence data into FASTA format.
 
-### 1. Prepare Reference Genomes
+```
+python csv_to_fasta_converter.py -i "Arteodactyl_CD300 - Ensembl.csv" "Arteodactyl_CD300 - NCBI.csv" -o combined_sequences.fasta
+```
+
+### 2. Prepare Reference Genomes
 Download all necessary reference genome files and organize them in a directory.
 
 ```
 python download_genomes.py <input.fasta> <output_dir>
-```
-
-### 2. Convert Excel Sheets to FASTA
-Use a script to convert your Excel-based sequence data into FASTA format.
-
-```
-python csv_to_fasta_converter.py -i "Arteodactyl_CD300 - Ensembl.csv" "Arteodactyl_CD300 - NCBI.csv" -o combined_sequences.fasta
 ```
 
 ### 3. Deduplicate FASTA
