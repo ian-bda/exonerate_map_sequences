@@ -66,7 +66,7 @@ Use `exonerate.py` to align your de-duplicated FASTA sequences to the reference 
 #### Example
 
 ```bash
-python exonerate_parallel.py \
+python exonerate.py \
     --proteins cetacean_proteins.fasta \
     --genomes_dir ./whale_genomes \
     --output_dir ./exonerate_output \
